@@ -27,7 +27,7 @@ function CalcBottomKeypad({HandleKeypadClick})
             </div>
             <div className="key-grid-right">
                 <div>
-                    <button type="button" onClick={() => HandleKeypadClick("C")} className="key-btn-util">❌</button>
+                    <button type="button" onClick={() => HandleKeypadClick("C")} className="key-btn-util">⬅️</button>
                 </div>
                 <div>
                     <button type="button" onClick={() => HandleKeypadClick("/")} className="key-btn-util">&divide;</button>
